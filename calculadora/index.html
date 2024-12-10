@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script defer src="js/index.js"></script>
+        <script src="https://kit.fontawesome.com/499df900a3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="pantalla">
+                <p id="input">0</p>
+                <p id="output">res</p>
+            </div>
+
+            <div class="botones">
+                <button onclick='clearInput()' class='operador'>AC</button>
+                <button onclick='inputDelete()' class='operador'><i class="fa-solid fa-delete-left"></i></button>
+                <button onclick='inputAdd("%")' class='operador'><i class="fa-solid fa-percent"></i></button>
+                <button onclick='inputAdd("/")' class='operador'><i class="fa-solid fa-divide"></i></button>
+                <button onclick='inputAdd(7)'>7</button>
+                <button onclick='inputAdd(8)'>8</button>
+                <button onclick='inputAdd(9)'>9</button>
+                <button onclick='inputAdd("X")' class='operador'><li class="fa-solid fa-xmark"></li></button>
+                <button onclick='inputAdd(4)'>4</button>
+                <button onclick='inputAdd(5)'>5</button>
+                <button onclick='inputAdd(6)'>6</button>
+                <button onclick='inputAdd("-")' class='operador'><li class="fa-solid fa-minus"></li></button>
+                <button onclick='inputAdd(1)'>1</button>
+                <button onclick='inputAdd(2)'>2</button>
+                <button onclick='inputAdd(3)'>3</button>
+                <button onclick='(inputAdd("+"))' class='operador'><li class="fa-solid fa-plus"></li></button>
+                <button class='operador'><li class="fa-solid fa-right-left"></li></button>
+                <button onclick='inputAdd(0)'>0</button>
+                <button onclick='inputAdd(".")'>.</button>
+                <button onclick='calc()' class='operador'><i class="fa-solid fa-equals"></i></button>
+            </div>
+        </div>
+    </body>
+</html>
